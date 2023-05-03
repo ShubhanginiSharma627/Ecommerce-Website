@@ -1,0 +1,79 @@
+#arrival{
+    text-align:center;
+    font-size:36px;
+    height:20vh;
+    margin-top:auto;
+    padding:10vh;
+    color:white;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    margin:auto;
+    background-color:#fff;
+    border-radius: 30px;
+    padding: 0.3rem 0.6rem 0.1rem 0.3rem;
+    width:50%;
+  }
+  
+  .search-bar input[type="text"] {
+    border:none;
+    font-size: 1rem;
+    border-radius: 30px;
+    margin-bottom:0px;
+
+  }
+  .search-bar input[type="text"] :active{
+    border:none;
+  }
+  .search-bar svg {
+    color: #999;
+    margin-left: 15vw;
+    font-size: 1rem;
+    cursor:pointer;
+  }
+  #home{
+    height:100%;
+    background-image:url("https://media.istockphoto.com/id/1206800961/photo/online-shopping-and-payment-man-using-tablet-with-shopping-cart-icon-digital-marketing.jpg?s=612x612&w=0&k=20&c=qG_9JB9ll4P5to97_HVxzMqhhzF0Gi1nWM_hNeiotbk=");
+  }
+ 
+  
+
+  
+  .grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,500px);;
+    gap:10vh;
+    margin:auto 10vw;
+  }
+
+  #addcart{
+    display:flex;
+    justify-content:center;
+  }
+  #add{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+     margin-left:1vw;
+    margin-top:0;
+    width:30%;
+  }
+  #Product{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+  }
+  .align{
+     display:flex;
+     justify-content:space-between;
+     margin:0 auto;
+  }
+  .align >p{
+     margin-left:20px;
+  }
