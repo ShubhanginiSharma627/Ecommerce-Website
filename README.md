@@ -1,4 +1,4 @@
-# XenonStack Assignment : Ecommerce website
+# Ecommerce website
 
 I have create a Ecommerce website using ReactJs,Html,and Css.The first page that open is Home page
 
